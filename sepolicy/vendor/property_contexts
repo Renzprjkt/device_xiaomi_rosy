@@ -1,0 +1,31 @@
+#============= property_contexts ==============
+# Camera
+camera.						u:object_r:camera_prop:s0
+persist.cam.					u:object_r:camera_prop:s0
+persist.camera.					u:object_r:camera_prop:s0
+persist.vendor.camera.				u:object_r:camera_prop:s0
+ro.camera.					u:object_r:camera_prop:s0
+persist.enable.max.pending.buf			u:object_r:camera_prop:s0
+cameradaemon.SaveMemAtBoot			u:object_r:camera_prop:s0
+persist.partial.skip				u:object_r:camera_prop:s0
+disable.cpp.power.collapse			u:object_r:camera_prop:s0
+cpp.set.clock					u:object_r:camera_prop:s0
+
+ro.product.wt.boardid				u:object_r:vendor_boardid_prop:s0
+
+# Fingerprint
+sys.fp.goodix					u:object_r:vendor_fingerprint_prop:s0
+sys.fp.vendor					u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.sys.fp.				u:object_r:vendor_fingerprint_prop:s0
+persist.sys.fp.					u:object_r:vendor_fingerprint_prop:s0
+gf.debug.dump_data				u:object_r:vendor_fingerprint_prop:s0
+
+# Perf
+vendor.target.init.complete			u:object_r:vendor_mpctl_prop:s0
+
+# Mwqem
+persist.vendor.mwqem.				u:object_r:vendor_mwqem_prop:s0
+
+# Wlan
+vendor.wlan.driver.ath				u:object_r:vendor_wlan_prop:s0
+vendor.wlan.driver.config			u:object_r:vendor_wlan_prop:s0
